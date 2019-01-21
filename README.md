@@ -25,11 +25,14 @@ Prometheus is a monitoring service which Kubernetes can integrate with. When usi
   
 The services it uses are:  
 - Prometheus  
--- _Dasboard: kubectl port-forward -n monitoring prometheus-prometheus-operator-prometheus-0 9090_  
+-- Setup Dashboard: kubectl port-forward -n monitoring prometheus-prometheus-operator-prometheus-0 9090  
+-- Dashboard site: _http://localhost:9090_  
 - Grafana  
--- kubectl port-forward $(kubectl get  pods --selector=app=grafana -n  monitoring --output=jsonpath="{.items..metadata.name}") -n monitoring  3000  
+-- Setup Dashboard: kubectl port-forward $(kubectl get  pods --selector=app=grafana -n  monitoring --output=jsonpath="{.items..metadata.name}") -n monitoring  3000  
+-- Dashboard site: _http://localhost:3000_  
 - Alertmanager  
--- kubectl port-forward -n monitoring alertmanager-prometheus-operator-alertmanager-0 9093  
+-- Setup Dashboard: kubectl port-forward -n monitoring alertmanager-prometheus-operator-alertmanager-0 9093  
+-- Dashboard site: _http://localhost:9093_  
   
 For more information about prometheus and its connected services, you can look up the following site(s):  
 - https://itnext.io/kubernetes-monitoring-with-prometheus-in-15-minutes-8e54d1de2e13  
