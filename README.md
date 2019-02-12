@@ -23,6 +23,8 @@ Check link: _https://blog.sicara.com/build-own-cloud-kubernetes-raspberry-pi-9e5
 Prometheus is a monitoring service which Kubernetes can integrate with. When using helm, one can install a full-house prometheus-kubernetes package with a single command.  
 > helm install stable/prometheus-operator --name prometheus-operator --namespace monitoring  
   
+__NOTE!: The prometheus operator does not work with some helm releases (ex. helm-1.12.0), try another release if CRD errors occur during the _helm install ..._ phase.  
+  
 The services it uses are:  
 - Prometheus  
   - Setup Dashboard: kubectl port-forward -n monitoring prometheus-prometheus-operator-prometheus-0 9090  

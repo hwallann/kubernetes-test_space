@@ -1,2 +1,3 @@
-.txt
-
+*.txt
+gomhdsu/*
+aks_access_to_acr.sh
