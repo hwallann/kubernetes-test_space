@@ -1,0 +1,11 @@
+{
+  "canDelegate": null,
+  "id": "/subscriptions/2e37177a-0869-4688-b029-90dbd138c92c/resourceGroups/csano-p-common_services-rg/providers/Microsoft.ContainerRegistry/registries/csano/providers/Microsoft.Authorization/roleAssignments/cdb6734b-6a3b-47ae-a33d-137699cd0d51",
+  "name": "cdb6734b-6a3b-47ae-a33d-137699cd0d51",
+  "principalId": "9ad31781-d53d-4f50-bd14-027fe1456348",
+  "resourceGroup": "csano-p-common_services-rg",
+  "roleDefinitionId": "/subscriptions/2e37177a-0869-4688-b029-90dbd138c92c/providers/Microsoft.Authorization/roleDefinitions/7f951dda-4ed3-4680-a7ca-43fe172d538d",
+  "scope": "/subscriptions/2e37177a-0869-4688-b029-90dbd138c92c/resourceGroups/csano-p-common_services-rg/providers/Microsoft.ContainerRegistry/registries/csano",
+  "type": "Microsoft.Authorization/roleAssignments"
+}
+

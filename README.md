@@ -38,5 +38,6 @@ The services it uses are:
   
 For more information about prometheus and its connected services, you can look up the following site(s):  
 - https://itnext.io/kubernetes-monitoring-with-prometheus-in-15-minutes-8e54d1de2e13  
-  
 
+# Setting up ACR with AKS  
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-auth-aks  
